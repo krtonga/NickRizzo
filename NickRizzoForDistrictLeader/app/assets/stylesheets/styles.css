@@ -1,0 +1,104 @@
+.lightblue {
+  background-color: lightblue;
+  padding: 15px;
+  background-image: url('http://upload.wikimedia.org/wikipedia/commons/0/0f/Brooklyn_Bridge_Park_and_Manhattan.jpg');
+}
+.title {
+  background-color: white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.subtitle {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.rounded {
+   border-radius: 40px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.gray {
+  background-color: black;
+  padding: 15px;
+}
+
+.icon {
+  height: 40px;
+}
+
+.end {
+  margin: 0 auto;
+}
+
+.nick {
+  float: right;
+  width: 50%;
+  position: relative;
+  top: 40px;
+}
+
+.red-button {
+  display: none;
+}
+
+
+/*//////////////////////*/
+/*Tablet*/
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+  .gray {
+    background-color: yellow;
+  }
+  .nick {top: 40px;}
+  .red-button {
+    display: absolute;
+  }
+/*  .subtitle {
+    zoom: 1.5;
+    color: grey;
+    line-height: 2em;
+  }*/
+
+
+
+/*//////////////////////*/
+/*Phone (portrait)*/
+@media only screen and (max-width: 767px) {
+
+  .gray {
+    background-color: red;
+  }
+  .nick {top: 5px;}
+  .red-button {
+    float: left;
+    display: inline;
+  }
+
+
+}
+
+/*//////////////////////*/
+/*Mobile (landscape)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+  .gray {
+    background-color: blue;
+  }
+
+  .nick {top: 5px;}
+  .red-button {
+    float: left;
+    display:inline;
+  }
+
+}
