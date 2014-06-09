@@ -173,8 +173,10 @@
         .container .offset-by-thirteen,
         .container .offset-by-fourteen,
         .container .offset-by-fifteen { padding-left: 0; }
-        .nick {top: 5px;}
-        .red-button {float: left; display: inline;}
+        .nick {top: 18px; left: 0px;}
+        .small-screen {display: none;}
+        .red-button {float: left; display: inline; width: 100%;}
+        .name-entry {width: 100px;}
     }
 
 
@@ -207,7 +209,8 @@
         .container .sixteen.columns,
         .container .one-third.column,
         .container .two-thirds.column { width: 420px; }
-        .nick {top: 5px;}
+        .nick {top: 3px; left: 0px;}
+        .small-screen {display: inline;}
         .red-button {float: left; display:inline;}
     }
 
